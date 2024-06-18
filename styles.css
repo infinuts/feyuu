@@ -1,0 +1,169 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Better font choice */
+    background-color: #121212; /* Dark background */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    padding: 40px;
+    background-color: rgba(18, 18, 18, 0.9); /* Slightly transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Header styles */
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 4em;
+    color: #ff6f61;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+header p {
+    font-size: 1.5em;
+    color: #d1d1d1;
+    opacity: 0.8; /* Text opacity */
+    margin-top: 10px;
+}
+
+/* Main content styles */
+main {
+    margin-top: 40px;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d1d1d1;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.4em;
+    color: #ffffff;
+    background-color: #ff6f61;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #333333;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(255, 111, 97, 0.5);
+}
+
+/* Discord link styles */
+.discord {
+    margin-top: 40px;
+}
+
+.discord img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.discord img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Initially hide the modal */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black overlay */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #222;
+    padding: 20px;
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: relative;
+    text-align: left;
+}
+
+/* Your existing CSS styles remain unchanged */
+
+.yt {
+    margin-top: 40px;
+}
+
+.yt img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.yt img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.close-button {
+    color: #aaaaaa;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-button:hover {
+    color: #ffffff;
+}
+
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.copy-button img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}

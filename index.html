@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feyuu Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Feyuu Hub</h1>
+            <p>Your ultimate Roblox script hub</p>
+        </header>
+        <main>
+            <section class="info">
+                <p>Welcome to Feyuu Hub, your one-stop solution for Roblox scripts. Join our community to access exclusive scripts and receive the latest updates.</p>
+                <button id="show-script-btn">Get Script</button>
+
+            </section>
+            <div id="script-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <button id="copy-button" class="copy-button">
+                        <img src="copy.png" alt="Copy Script">
+                    </button>
+                    <pre id="script-content">
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sytcal/ILoveUsingFeyuuHub/main/Feyuu"))()
+                    </pre>
+                </div>
+            </div>
+            <div class="discord">
+                <a href="https://discord.gg/gyxXPQDM" target="_blank">
+                    <img src="discord.svg" alt="Discord">
+                </a
+				<div class="youtube">
+                <a href="https://www.youtube.com/@sytcal" target="_blank">
+                    <img src="yt.svg" alt="Youtube">
+                </a>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
